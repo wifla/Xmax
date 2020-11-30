@@ -413,6 +413,7 @@ a:active{
 
 .blete-section-header p{
 	font-family: 'Raleway', sans-serif;
+	text-align: justify;
 }
 
 /* ------ Parallax Section Style-----*/
@@ -524,7 +525,8 @@ header.blete-page-header .blete-main-menu{
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #333;
+    /* color: #333; */
+    color: #FFFFFF;
     padding-top: 6px;
     padding-bottom: 0;
     -webkit-transition: all .3s;
@@ -545,7 +547,8 @@ header.blete-page-header .blete-main-menu{
 
 /* ------ Minified Menu ------ */
 .blete-main-menu.minified{
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
+	background-color: #2C353D;
 	padding: 0;
 	position: fixed;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.43);
@@ -1266,7 +1269,10 @@ header.blete-page-header .blete-main-menu.minified{
 }
 
 /* -------- Contact Style ------- */
-.
+.blete-contact-details .blete-contact-address{
+	float: none;
+	margin: 0 auto;
+}
 .blete-contact-section h2{
 
 }
@@ -1280,6 +1286,7 @@ header.blete-page-header .blete-main-menu.minified{
 	margin-bottom: 25px;
 	font-size: 14px;
 	position: relative;
+	line-height: 30px;
 }
 
 .blete-contact-section .blete-contact-address ul li:last-child{
