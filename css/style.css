@@ -501,7 +501,6 @@ a:active{
     border-radius: 0;
     position: fixed;
     width: 100%;
-    padding: 10px 0 20px !important;
     margin-bottom: 0;
     z-index: 10;
     -webkit-transition: all .35s;
@@ -1511,4 +1510,20 @@ footer ul li a i{
 	position: relative;
 	padding: 80px 0;
 	overflow: hidden;
+}
+
+@media (max-width: 768px){
+	.blete-main-slides h1.blete-slider-text-big{
+		font-size: 30px;
+	}
+	.blete-main-slides p{
+		font-size: 18px !important;
+	}
+	.blete-slider .sp-button{
+		width: 10px;
+		height: 10px;
+	}
+	.blete-main-menu .navbar-nav{
+		padding: 0;
+	}
 }
